@@ -10,39 +10,86 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Custom__css_file -->
     <link rel=" stylesheet" href="Home3.css">
+    <link rel=" stylesheet" href="navbar.css">
     <!-- fontAwesome_file_link -->
     <script src="https://kit.fontawesome.com/929eac8290.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- This__is_navbar -->
-    <!-- <header class="first__1">
-        <nav class="container mb-[94px]">
-            <div class="flex justify-between pt-[22px]">
-                <div class="flex items-center">
-                    <h3 class="italic mr-[40px]">Educarso <span class="text_primary text-[42px] font-bold">.</span></h3>
-                    <ul class="flex text-[16px] font-medium gap-[52px]">
-                        <li>Home</li>
-                        <li>Pages</li>
-                        <li>Course</li>
-                        <li>Blog</li>
-                        <li>Contacts</li>
-                    </ul>
+    <header class="first__1 header">
+        <nav class="navbar container mb-[48px]">
+            <div class="flex items-center">
+                <a href="/" class="nav-logo">
+                    Educarso .
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="">
+                            <a href="/index.html" class="nav-link text-[16px] font-medium">Home</a>
+                        </span>
+                        <ul class="absolute pt-[10px] home-child">
+                            <li class=""><a href="/pages/Home2.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Home2</a>
+                            </li>
+                            <li class="mt-[10px]"><a href="/pages/Home3.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Home3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/About.html" class="nav-link text-[16px] font-medium">About</a>
+                    </li>
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="">
+                            <a href="/pages/Courses1.html" class="nav-link text-[16px] font-medium">Course</a>
+                        </span>
+                        <ul class="absolute pt-[10px] home-child">
+                            <li class=""><a href="/pages/Courses2.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Course2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="">
+                            <a href="/pages/Blogs.html" class="nav-link text-[16px] font-medium">Blog</a>
+                        </span>
+                        <ul class="absolute pt-[10px] home-child">
+                            <li class=""><a href="/pages/SingleBlogs.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Blogs Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item relative nav-wrapper">
+                        <span class="">
+                            <a href="/pages/Instructor.html" class="nav-link text-[16px] font-medium">Instructors</a>
+                        </span>
+                        <ul class="absolute pt-[10px] home-child">
+                            <li class=""><a href="/pages/InstructorDetails.html"
+                                    class="nav-link text-[16px] font-medium border-b border-black">Instructors
+                                    details</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-[19px] hidden md:block">
+                    <img src="https://i.ibb.co/VJL9pMm/Vector.png" alt="">
                 </div>
-                <div class="flex items-center">
-                    <div class="mr-[19px]">
-                        <img src="https://i.ibb.co/VJL9pMm/Vector.png" alt="">
-                    </div>
-                    <div class="mr-[16px]">
-                        <button class="py-[12px] px-[32px] bg-white rounded-[4px] text-[16px] font-medium">Log
-                            in</button>
-                    </div>
-                    <div class="mr-[16px]">
-                        <button
-                            class="py-[12px] px-[32px] bg-black text-white rounded-[4px] text-[16px] font-medium">Sign
-                            up</button>
-                    </div>
+                <div class="mr-[16px] hidden md:block">
+                    <button class="py-[12px] px-[32px] bg-white rounded-[4px] text-[16px] font-medium">Log
+                        in</button>
                 </div>
+                <div class="mr-[16px] hidden md:block">
+                    <button class="py-[12px] px-[32px] bg-black text-white rounded-[4px] text-[16px] font-medium">Sign
+                        up</button>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </nav>
         <div class="container">
@@ -81,7 +128,7 @@
                 </div>
             </div>
         </div>
-    </header> -->
+    </header>
     <!-- __01_section__Browse Top -->
     <section class="pt-[124px] pb-[66px]">
         <div class="container text-center">
@@ -224,8 +271,8 @@
                     </button>
                 </div>
                 <!-- <div class="absolute -right-20 rounded-full top-0 over__10_bg"> -->
-                </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- __03_section__Counter -->

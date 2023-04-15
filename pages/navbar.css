@@ -108,3 +108,11 @@ a {
     }
 }
 
+.home-child {
+    /* color: red; */
+    display: none;
+}
+
+.nav-wrapper:hover .home-child {
+    display: block;
+}
