@@ -110,6 +110,27 @@ span {
     opacity: .5;
 }
 
+.home3_expert_singlecard {
+    background: linear-gradient(0deg, rgba(255, 97, 88, 0.8), rgba(255, 97, 88, 0.8));
+    transition: all .5s;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+.home3_expert_card:hover>.home3_expert_singlecard {
+    transform: scaleX(1);
+}
+
+.home3_icon {
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.home3_icon:hover {
+    background: #13AAA1;
+}
+
 .cursive {
     font-family: cursive;
 }
@@ -128,4 +149,25 @@ span {
 
 .important {
     font-size: 20px !important;
+}
+
+.categ_card:hover .tex_ {
+    color: white;
+}
+
+.m__mcard:hover .popular_m_card {
+    display: none;
+    transition: .5s;
+
+}
+
+.popular_hover_card {
+    display: none;
+    transition: .5s;
+
+}
+
+.m__mcard:hover .popular_hover_card {
+    display: block;
+    transition: .5s;
 }

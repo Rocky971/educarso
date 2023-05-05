@@ -32,7 +32,7 @@ p,
 span {
     font-size: 16px !important;
     /* font-weight: 400 !important; */
-    line-height: 24px;
+    line-height: 28px;
     color: #0E0605;
 }
 
@@ -98,40 +98,13 @@ span {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-.home3_expert_singlecard {
-    background: linear-gradient(0deg, rgba(255, 97, 88, 0.8), rgba(255, 97, 88, 0.8));
-    transition: all .5s;
-    transform-origin: left;
-    transform: scaleX(0);
-}
-
-.home3_expert_card:hover>.home3_expert_singlecard {
-    transform: scaleX(1);
-}
-
-.home3_icon {
-    padding: 15px;
-    border-radius: 50%;
-    color: #fff;
-}
-
-.home3_icon:hover {
-    background: #13AAA1;
-}
-
-.cursive {
-    font-family: cursive;
-}
-
-.section_8 {
-    background-image: url('https://i.ibb.co/ZmWtWYM/BG-2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+.c__sahdow {
+    box-shadow: 0 0 13px -8px;
 }
 
 .shadowc {
     box-shadow: 0px 0px 36px -22px;
+    /* background: #ffb60a1a; */
 }
 
 .footer {

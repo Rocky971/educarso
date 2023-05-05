@@ -149,3 +149,36 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.op {
+    opacity: .5;
+}
+
+.home3_expert_singlecard {
+    background: linear-gradient(0deg, rgba(71, 50, 186, 0.8), rgba(71, 50, 186, 0.8));
+    transition: all .5s;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+.home3_expert_card:hover>.home3_expert_singlecard {
+    transform: scaleX(1);
+}
+
+.home3_icon {
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.home3_icon:hover {
+    background: #13AAA1;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.sh_adow {
+    box-shadow: 45px -45px 0px 0px;
+}
